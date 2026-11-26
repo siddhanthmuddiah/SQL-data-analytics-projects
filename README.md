@@ -1,5 +1,6 @@
 # SQL-data-analytics-projects
 
+<img width="1584" height="672" alt="2da" src="https://github.com/user-attachments/assets/f9e7af16-283f-432c-9b17-542e4adc94c1" />
 
 
 ---
