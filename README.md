@@ -1,5 +1,4 @@
-# SQL-data-analytics-projects
-
+# 📊 SQL Data Analytics: Exploratory, Advanced Analysis & Reporting
 ## 📌 Project Overview
 
 This repository showcases an end-to-end SQL data analytics project built in **T-SQL (SQL Server)** to extract actionable business insights from relational sales data. Structured across 13 modular scripts, the workflow progresses from foundational **Exploratory Data Analysis (EDA)**—examining schemas, dimensions, and core metrics—to **Advanced Analytics**, including time-series trends, cumulative running totals, year-over-year performance comparisons, part-to-whole analysis, and customer/product segmentation. The project concludes with reusable SQL reporting views designed for business intelligence consumption.
