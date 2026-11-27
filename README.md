@@ -21,6 +21,24 @@ The project has two parts, and the scripts follow them:
 * **Repository Structure:**
   * `Dataset/` – Source CSV files used to populate the analytical tables
   * `b_scripts/` – 13 sequential T-SQL scripts (`01`–`06` for EDA, `07`–`13` for Advanced Analytics & Reporting)
+    
+---
+## ⚙️ Project Requirements & Setup
+
+To reproduce this analysis locally, ensure you have the following tools and files ready:
+
+### 1. Software Prerequisites
+* **Database Engine:** [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Developer, Express, or Standard Edition)
+* **SQL Client / IDE:** [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) or [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio)
+* **Version Control (Optional):** Git (to clone the repository)
+
+### 2. Data & Schema Setup
+* **Source Files:** All required CSV datasets are located in the [`Dataset/`](./Dataset) folder.
+* **Database Configuration:** Create a target database (e.g., `DataWarehouseAnalytics`) and import the CSV files into their corresponding fact and dimension tables (`fact_sales`, `dim_customers`, `dim_products`) before executing the scripts in [`b_scripts/`](./b_scripts).
+
+### 3. Execution Order
+* Run scripts `01` through `06` first for **Exploratory Data Analysis (EDA)** to validate table structures, date ranges, and baseline metrics.
+* Run scripts `07` through `13` sequentially for **Advanced Analytics** and to generate the final reporting views.
 
 ---
 ## 🛡️ License
